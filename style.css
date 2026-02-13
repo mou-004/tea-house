@@ -1,0 +1,25 @@
+.slider {
+  display: flex;
+  width: fit-content;
+  animation: scroll 20s linear infinite;
+}
+
+.card {
+  width: 320px;        /* fixed width */
+  margin: 0 20px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.slider {
+  transform: translateZ(0);
+}
+
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tea House</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+
+<style>
+*{font-family:'Roboto',sans-serif;}
+</style>
+</head>
+
+<body class="overflow-x-hidden">
+
+<!-- NAVBAR -->
+<nav class="bg-gray-100 shadow-sm">
+<div class="container mx-auto px-6 py-4 flex items-center justify-between">
+<a href="index.html">
+<img src="./logo.png" alt="Tea House Logo" class="h-10 md:h-14 w-auto">
+</a>
+
+<ul class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
+<li><a href="#" class="hover:text-green-600 transition">Home</a></li>
+<li><a href="#" class="hover:text-green-600 transition">About</a></li>
+<li><a href="#" class="hover:text-green-600 transition">Products</a></li>
+<li><a href="#" class="hover:text-green-600 transition">Store</a></li>
+<li><a href="#" class="hover:text-green-600 transition">Contact</a></li>
+</ul>
+
+<div class="flex items-center space-x-4">
+<i class="fa-solid fa-magnifying-glass text-gray-600"></i>
+<button class="md:hidden text-xl text-gray-700">
+<i class="fa-solid fa-bars"></i>
+</button>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center justify-center text-center px-4">
+<div class="absolute inset-0">
+<img src="./carousel-1.jpg" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-green-900/40"></div>
+</div>
+
+<div class="relative z-10 max-w-4xl text-white">
+<p class="text-base md:text-lg mb-4">
+Welcome to <span class="font-semibold">Tea House</span>
+</p>
+<h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight">
+Organic & Quality Tea Production
+</h1>
+<button class="mt-8 bg-white text-gray-800 px-6 md:px-8 py-3 rounded-full text-base md:text-lg font-medium hover:bg-gray-100 transition">
+Explore More
+</button>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-16 md:py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+
+<div class="grid grid-cols-2 gap-6">
+<img src="./about-1.jpg" class="w-full h-48 sm:h-56 md:h-72 object-cover rounded-lg">
+<img src="./about-4.jpg" class="w-full h-40 sm:h-48 md:h-56 object-cover rounded-lg mt-6">
+<img src="./about-3.jpg" class="w-full h-40 sm:h-48 md:h-56 object-cover rounded-lg">
+<img src="./about-2.jpg" class="w-full h-48 sm:h-56 md:h-72 object-cover rounded-lg -mt-6">
+</div>
+
+<div>
+<p class="text-green-600 italic text-lg mb-3">About Us</p>
+<h2 class="text-3xl md:text-5xl font-serif font-bold text-gray-800 leading-tight">
+The Success History of Tea House in 25 Years
+</h2>
+
+<div class="flex items-center gap-4 my-6">
+<span class="h-[2px] w-16 bg-green-600"></span>
+<span class="w-2 h-2 bg-gray-800 rounded-full"></span>
+<span class="h-[2px] w-16 bg-green-600"></span>
+</div>
+
+<p class="text-gray-600 leading-relaxed">
+For more than two decades, we have cultivated premium tea leaves using sustainable farming methods.
+Every blend reflects our dedication to quality and authentic taste.
+</p>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- REVIEW SECTION -->
+<section class="relative py-16 md:py-24 bg-cover bg-center"
+style="background-image: url('./gettyimages-1405526846-640x640.avif');">
+
+<div class="relative max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-black mb-12">
+What Our Clients Say About Our Tea
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-white p-8 rounded shadow-lg">
+<p class="text-gray-600 mb-6">
+The flavor is exceptional and the quality is consistent. I enjoy this tea every morning.
+</p>
+<div class="flex flex-col items-center">
+<img src="./testimonial-2.jpg" class="w-16 h-16 rounded-full mb-3">
+<h4 class="font-semibold text-lg">John Smith</h4>
+<span class="text-green-600 text-sm">Doctor</span>
+</div>
+</div>
+
+<div class="bg-white p-8 rounded shadow-lg">
+<p class="text-gray-600 mb-6">
+A wonderful selection of teas that are both healthy and refreshing. Highly recommended.
+</p>
+<div class="flex flex-col items-center">
+<img src="./testimonial-1.jpg" class="w-16 h-16 rounded-full mb-3">
+<h4 class="font-semibold text-lg">Sarah Lee</h4>
+<span class="text-green-600 text-sm">Nutritionist</span>
+</div>
+</div>
+
+<div class="bg-white p-8 rounded shadow-lg">
+<p class="text-gray-600 mb-6">
+Excellent aroma and taste. It has become part of my daily routine.
+</p>
+<div class="flex flex-col items-center">
+<img src="./testimonial-3.jpg" class="w-16 h-16 rounded-full mb-3">
+<h4 class="font-semibold text-lg">Malvi J</h4>
+<span class="text-green-600 text-sm">Fitness Coach</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="py-16 md:py-24 bg-gray-100">
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<p class="text-green-600 italic mb-2">Contact Us</p>
+
+<h2 class="text-3xl md:text-5xl font-serif font-bold text-gray-800 mb-6">
+Contact Us Right Now
+</h2>
+
+<p class="max-w-3xl mx-auto text-gray-600 mb-12 leading-relaxed">
+If you have questions about our products or would like assistance, our team is ready to help you.
+</p>
+
+<div class="grid md:grid-cols-3 gap-12">
+
+<div>
+<i class="fa-solid fa-envelope text-4xl text-green-600 mb-4"></i>
+<p>info@teahouse.com</p>
+<p>support@teahouse.com</p>
+</div>
+
+<div>
+<i class="fa-solid fa-phone text-4xl text-green-600 mb-4"></i>
+<p>+012 345 67890</p>
+<p>+012 345 67891</p>
+</div>
+
+<div>
+<i class="fa-solid fa-location-dot text-4xl text-green-600 mb-4"></i>
+<p>123 Green Street</p>
+<p>New York, USA</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#1f2d2f] text-gray-300 py-10 text-center">
+<p>© 2026 Tea House. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />  
+<style>
+*{
+    font-family: 'Roboto', sans-serif;
+}
+</style>
+<!--front awsome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--tailwind css-->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+   <nav class="bg-gray-100 shadow-sm">
+  <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    
+    <!-- Logo Image -->
+    <a href="index.html">
+  <img src="./logo.png" alt="Tea House Logo" class="h-15 w-auto ">
+</a>
+
+
+    <!-- Desktop Menu -->
+    <ul class="hidden  md:flex items-center space-x-8 font-medium text-gray-700">
+      <li>
+         <a href="index.html" class="hover:text-green-600 transition">Home</a>
+      </li>
+      <li>
+        <a href="about.html" class="hover:text-green-600 transition">About</a>
+      </li>
+      <li>
+        <a href="Product.html" class="hover:text-green-600 transition">Products</a>
+      </li>
+       <li>
+        <a href="article.html" class="hover:text-green-600 transition">Article</a>
+      </li>
+      <li>
+        <a href="Review.html" class="hover:text-green-600 transition">Review</a>
+      </li>
+      
+      <li>
+        <a href="contact.html" class="hover:text-green-600 transition">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Right Section -->
+    <div class="flex items-center space-x-4">
+      <button class="text-gray-600 hover:text-green-600 transition">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+
+      <button id="menu-btn" class="md:hidden text-xl text-gray-700">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<!-- About Section -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12">
+
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid grid-cols-2 gap-6">
+
+        <img src="./about-1.jpg"
+             class="w-full h-72 object-cover rounded-lg">
+
+        <img src="./about-4.jpg"
+             class="w-full h-56 object-cover rounded-lg mt-10">
+
+        <img src="./about-3.jpg"
+             class="w-full h-56 object-cover rounded-lg">
+
+        <img src="./about-2.jpg"
+             class="w-full h-72 object-cover rounded-lg -mt-10">
+      </div>
+      <div>
+        <p class="text-green-600 italic text-lg mb-3">
+          About Us
+        </p>
+        <h2 class="text-4xl md:text-5xl font-serif font-bold text-gray-800 leading-tight">
+          The success history of TEA House in 25 years
+        </h2>
+
+        <!-- Divider -->
+        <div class="flex items-center gap-4 my-6">
+          <span class="h-[2px] w-16 bg-green-600"></span>
+          <span class="w-2 h-2 bg-gray-800 rounded-full"></span>
+          <span class="h-[2px] w-16 bg-green-600"></span>
+        </div>
+        <div class="flex gap-6 mb-8">
+
+          <img src="./about-5.jpg"
+               class="w-28 h-28 object-cover rounded">
+
+          <div>
+            <h4 class="text-xl font-semibold text-gray-800 mb-2">
+              Our tea is one of the most popular drinks in the world
+            </h4>
+            <p class="text-gray-600 leading-relaxed">
+             Tea is enjoyed by millions of people every day across different cultures and countries. It is known for its refreshing taste, soothing aroma, and numerous health benefits. From green tea to herbal blends, there is a variety for everyone to enjoy.
+            </p>
+          </div>
+
+        </div>
+
+        <hr class="my-6">
+        <div class="flex gap-6">
+
+          <div>
+            <h4 class="text-xl font-semibold text-gray-800 mb-2">
+              Daily use of a cup of tea is good for your health
+            </h4>
+            <p class="text-gray-600 leading-relaxed">
+             Drinking a cup of tea daily can improve your overall well-being. Tea contains antioxidants that help boost immunity, improve digestion, and reduce stress. Making tea a part of your daily routine can support a healthy and balanced lifestyle
+            </p>
+          </div>
+
+          <img src="./about-6.jpg"
+               class="w-28 h-28 object-cover rounded">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!--Footer-->
+<footer class="bg-[#1f2d2f] text-gray-300 pt-20">
+
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-16">
+
+    <!-- Our Office -->
+    <div>
+      <h3 class="text-2xl font-serif text-green-500 mb-6">Our Office</h3>
+
+      <p class="mb-3 flex items-center">
+        <i class="fa-solid fa-location-dot text-green-500 mr-3"></i>
+        123 Street, Sylhet, Bangladesh
+      </p>
+
+      <p class="mb-3 flex items-center">
+        <i class="fa-solid fa-phone text-green-500 mr-3"></i>
+        +012 345 67890
+      </p>
+
+      <p class="mb-6 flex items-center">
+        <i class="fa-solid fa-envelope text-green-500 mr-3"></i>
+        info@example.com
+      </p>
+
+      <!-- Social Icons -->
+      <div class="flex space-x-3">
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-green-600 rounded-full text-white hover:bg-green-700">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-green-600 rounded-full text-white hover:bg-green-700">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-green-600 rounded-full text-white hover:bg-green-700">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-green-600 rounded-full text-white hover:bg-green-700">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-2xl font-serif text-green-500 mb-6">Quick Links</h3>
+      <ul class="space-y-3">
+        <li class="hover:text-green-500 cursor-pointer">About Us</li>
+        <li class="hover:text-green-500 cursor-pointer">Contact Us</li>
+        <li class="hover:text-green-500 cursor-pointer">Our Services</li>
+        <li class="hover:text-green-500 cursor-pointer">Terms & Condition</li>
+        <li class="hover:text-green-500 cursor-pointer">Support</li>
+      </ul>
+    </div>
+
+    <!-- Business Hours -->
+    <div>
+      <h3 class="text-2xl font-serif text-green-500 mb-6">Business Hours</h3>
+
+      <p>Monday - Friday</p>
+      <p class="font-semibold mb-3 text-white">09:00 am - 07:00 pm</p>
+
+      <p>Saturday</p>
+      <p class="font-semibold mb-3 text-white">09:00 am - 12:00 pm</p>
+
+      <p>Sunday</p>
+      <p class="font-semibold text-white">Closed</p>
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+      <h3 class="text-2xl font-serif text-green-500 mb-6">Newsletter</h3>
+
+      <p class="mb-6">
+       Subscribe to our newsletter to receive updates, offers, and tea tips.
+      </p>
+
+      <div class="flex">
+        <input type="email"
+               placeholder="Your email"
+               class="w-full px-4 py-3 bg-transparent border border-gray-500 text-white rounded-l focus:outline-none">
+        <button class="bg-green-600 px-6 rounded-r text-white hover:bg-green-700">
+          SignUp
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-700 mt-16 py-6">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-sm">
+      <p>©Tea House , All Right Reserved.</p>
+      <p>
+       Code By <span class="text-green-500">Mou</span>
+        for code use <span class="text-green-500">Html,Tailwind</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
