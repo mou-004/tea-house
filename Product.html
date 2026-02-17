@@ -22,13 +22,10 @@
    <nav class="bg-gray-100 shadow-sm">
   <div class="container mx-auto px-6 py-4 flex items-center justify-between">
     
-    <!-- Logo Image -->
     <a href="index.html">
   <img src="./logo.png" alt="Tea House Logo" class="h-15 w-auto ">
 </a>
 
-
-    <!-- Desktop Menu -->
      <ul class="hidden  md:flex items-center space-x-8 font-medium text-gray-700">
       <li>
          <a href="index.html" class="hover:text-green-600 transition">Home</a>
@@ -51,7 +48,7 @@
       </li>
     </ul>
 
-    <!-- Right Section -->
+
     <div class="flex items-center space-x-4">
       <button class="text-gray-600 hover:text-green-600 transition">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -65,12 +62,12 @@
   </div>
 </nav>
 
-<!--Product-->
-<section class="py-24 bg-[#eef3ea] relative overflow-hidden">
+
+<section class="py-24 bg-[#eef3ea]">
 
   <div class="max-w-7xl mx-auto px-6">
 
-    <!-- Section Header -->
+
     <div class="text-center mb-16">
       <p class="text-green-600 italic text-lg mb-4">Our Products</p>
 
@@ -78,7 +75,6 @@
         Tea has a complex positive <br> effect on the body
       </h2>
 
-      <!-- Divider -->
       <div class="flex justify-center items-center gap-4 mt-8">
         <span class="h-[2px] w-24 bg-green-600"></span>
         <span class="w-4 h-4 border-4 border-white bg-gray-800 rounded-full"></span>
@@ -86,79 +82,69 @@
       </div>
     </div>
 
-    <!-- Slider Wrapper -->
-    <div class="relative overflow-hidden">
-
-      <!-- Slider -->
-      <div id="slider"
-           class="flex gap-2 transition-transform duration-500">
-
-        <!-- Card -->
-      <div class="w-full md:w-1/2 lg:w-1/3 relative">
+  
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
 
+      <div class="bg-white shadow-lg rounded overflow-hidden">
+        <img src="./product-3.jpg"
+             alt="Spiced Tea"
+             class="w-full h-[240px] object-cover">
 
-          <img src="./product-3.jpg"
-               class="w-full h-[240px] object-cover">
-
-          <!-- Bottom Card Content -->
-          <div class="bg-white text-center px-8 py-8 shadow-lg -mt-4 mx-6 relative z-10">
-            <h3 class="text-3xl font-serif text-green-600 mb-3">
-              Spiced Tea
-            </h3>
-            <p class="text-gray-600 leading-relaxed">
-             A flavorful blend of tea and aromatic spices that delivers a warm and comforting taste.
-            </p>
-          </div>
+        <div class="text-center px-8 py-8">
+          <h3 class="text-3xl font-serif text-green-600 mb-3">
+            Spiced Tea
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            A flavorful blend of tea and aromatic spices that delivers a warm and comforting taste.
+          </p>
         </div>
-
-     <div class="w-full md:w-1/2 lg:w-1/3 relative">
-
-
-
-          <img src="./product-4.jpg"
-               class="w-full h-[240px] object-cover">
-
-          <div class="bg-white text-center px-8 py-8 shadow-lg -mt-4 mx-6 relative z-10">
-            <h3 class="text-3xl font-serif text-green-600 mb-3">
-              Organic Tea
-            </h3>
-            <p class="text-gray-600 leading-relaxed">
-              Pure, naturally grown tea made without chemicals for a clean and refreshing experience.
-            </p>
-          </div>
-        </div>
-
-      <div class="w-full md:w-1/2 lg:w-1/3 relative">
-
-
-
-          <img src="./product-1.jpg"
-               class="w-full h-[240px] object-cover">
-
-          <div class="bg-white text-center px-8 py-8 shadow-lg -mt-4 mx-6 relative z-10">
-            <h3 class="text-3xl font-serif text-green-600 mb-3">
-              Green Tea
-            </h3>
-            <p class="text-gray-600 leading-relaxed">
-             A light and healthy tea rich in antioxidants that supports overall wellness.
-            </p>
-          </div>
-        </div>
-
       </div>
+
+
+      <div class="bg-white shadow-lg rounded overflow-hidden">
+        <img src="./product-4.jpg"
+             alt="Organic Tea"
+             class="w-full h-[240px] object-cover">
+
+        <div class="text-center px-8 py-8">
+          <h3 class="text-3xl font-serif text-green-600 mb-3">
+            Organic Tea
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            Pure, naturally grown tea made without chemicals for a clean and refreshing experience.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="bg-white shadow-lg rounded overflow-hidden">
+        <img src="./product-1.jpg"
+             alt="Green Tea"
+             class="w-full h-[240px] object-cover">
+
+        <div class="text-center px-8 py-8">
+          <h3 class="text-3xl font-serif text-green-600 mb-3">
+            Green Tea
+          </h3>
+          <p class="text-gray-600 leading-relaxed">
+            A light and healthy tea rich in antioxidants that supports overall wellness.
+          </p>
+        </div>
       </div>
 
     </div>
+
   </div>
 </section>
+
 
 
 <!--Product-->
 <section class="py-16">
     <div class="max-w-7xl mx-auto px-6">
 
-      <!-- Heading -->
+
       <div class="text-center mb-12">
         <h2 class="text-4xl font-serif font-bold text-gray-800">
           Want to stay healthy?
@@ -167,16 +153,16 @@
         <div class="w-24 h-1 bg-green-600 mx-auto mt-4"></div>
       </div>
 
-      <!-- Product Grid -->
+    
       <div class="grid md:grid-cols-3 gap-10">
 
-        <!-- Product 1 -->
+       
         <div class="text-center">
           <img src="./store-product-1.jpg"
                alt="Nature close tea"
                class="mx-auto mb-6 w-72 h-72 object-contain" />
 
-          <!-- Stars -->
+    
           <div class="flex justify-center text-green-600 mb-4">
             ★ ★ ★ ★ ★
           </div>
@@ -192,7 +178,7 @@
           <p class="text-green-600 text-2xl font-semibold">1000tk</p>
         </div>
 
-        <!-- Product 2 -->
+   
         <div class="text-center">
           <img src="./store-product-2.jpg"
                alt="Green tea tulsi"
@@ -213,7 +199,7 @@
           <p class="text-green-600 text-2xl font-semibold">1500tk</p>
         </div>
 
-        <!-- Product 3 -->
+       
         <div class="text-center">
           <img src="./store-product-3.jpg"
                alt="Instant tea premix"
@@ -253,11 +239,11 @@
       <div class="w-20 h-1 bg-green-600"></div>
     </div>
 
-    <!-- SLIDER -->
+
     <div class="overflow-hidden w-full">
       <div class="slider">
 
-        <!-- ORIGINAL 4 -->
+    
         <div class="min-w-[300px] mx-4">
           <div class="rounded-xl shadow-lg bg-white h-96 flex items-center justify-center">
             <img src="tea-1.png" class="h-80 object-contain">
@@ -286,7 +272,7 @@
           <h3 class="mt-6 text-xl font-serif font-semibold">Classic Ice Tea</h3>
         </div>
 
-        <!-- DUPLICATE SAME 4 AGAIN (FOR LOOP) -->
+        <!--  (FOR LOOP) -->
         <div class="min-w-[300px] mx-4">
           <div class="rounded-xl shadow-lg bg-white h-96 flex items-center justify-center">
             <img src="tea-1.png" class="h-80 object-contain">
@@ -326,7 +312,7 @@
 
   <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-16">
 
-    <!-- Our Office -->
+  
     <div>
       <h3 class="text-2xl font-serif text-green-500 mb-6">Our Office</h3>
 
@@ -345,7 +331,7 @@
         info@example.com
       </p>
 
-      <!-- Social Icons -->
+
       <div class="flex space-x-3">
         <a href="#" class="w-10 h-10 flex items-center justify-center bg-green-600 rounded-full text-white hover:bg-green-700">
           <i class="fa-brands fa-twitter"></i>
@@ -362,7 +348,7 @@
       </div>
     </div>
 
-    <!-- Quick Links -->
+
     <div>
       <h3 class="text-2xl font-serif text-green-500 mb-6">Quick Links</h3>
       <ul class="space-y-3">
@@ -374,7 +360,7 @@
       </ul>
     </div>
 
-    <!-- Business Hours -->
+   
     <div>
       <h3 class="text-2xl font-serif text-green-500 mb-6">Business Hours</h3>
 
@@ -388,7 +374,7 @@
       <p class="font-semibold text-white">Closed</p>
     </div>
 
-    <!-- Newsletter -->
+ 
     <div>
       <h3 class="text-2xl font-serif text-green-500 mb-6">Newsletter</h3>
 
@@ -408,7 +394,7 @@
 
   </div>
 
-  <!-- Bottom Bar -->
+
   <div class="border-t border-gray-700 mt-16 py-6">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-sm">
       <p>©Tea House , All Right Reserved.</p>
